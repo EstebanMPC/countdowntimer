@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 5rem;
+  font-weight: bold;
+  padding: 30px;
+}
+
+.coming-soon {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.countdown {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.waiting {
+  height: 50vh;
+  margin-top: 100px;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+  font-size: 3rem;
+}
